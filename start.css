@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+body {
+    font-family: "Micro 5" !important;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    color: #242323;
+    margin: 0;
+    padding: 20px;
+    background-size:1800px;
+    font-size: 30px;
+    background-color: #122813;
+}
+
+a {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+a:hover {
+    background-color: #45a049;
+}
+
+#start-page{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background: #00fe6e75;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    font-size: 40px;
+}
+
+#rules{
+    font-size: 32px !important;
+    text-align: left;
+}

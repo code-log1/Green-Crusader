@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+body {
+    font-family: "Micro 5" !important;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-size:1800px;
+    font-size: 30px;
+    background-color: #122813;
+}
+
+h1{
+    color: black;
+    text-decoration:underline;
+    transition: transform 0.3s ease;
+}
+
+h1:hover{
+    color: rgb(29, 47, 33);
+}
+.game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background: #00fe6e38;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stats {
+    margin-bottom: 20px;
+}
+
+.actions button {
+    font-family: "Micro 5" !important;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #122813;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 24px;
+}
+
+.actions button:hover {
+    background-color: #000000;
+}
+
+.log {
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.log ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.log ul li {
+    color: #aefabe;
+    margin: 5px 0;
+    font-size: 20px;
+}

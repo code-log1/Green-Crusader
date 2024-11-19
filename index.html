@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Crusader Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Green Crusader Quest</h1>
+        <div class="stats">
+            <p>Level: <span id="levelcount">1</span></p>
+            <p>⚡Energy: <span id="energy">50</span></p>
+            <p>🏭Pollution Cleaned: <span id="pollution-cleaned">0</span></p>
+            <p>🦁Animals Protected: <span id="animals-protected">0</span></p>
+            <p>🌳Trees Planted: <span id="trees-planted">0</span></p>
+            <p>⏳Time Left: <span id="time">60</span>s</p>
+        </div>
+        <div class="actions">
+            <button onclick="performAction('cleanup')">Cleanup Drive (-5 Energy, +10 Pollution Cleaned)</button>
+            <button onclick="performAction('protectAnimals')">Protect Endangered Animals (-8 Energy, +5 Animals)</button>
+            <button onclick="performAction('plantTrees')">Plant Trees (-4 Energy, +3 Trees)</button>
+            <button onclick="performAction('installTurbines')">Install Wind Turbines (-10 Energy, +15 Pollution Cleaned)</button>
+            <button onclick="performAction('rest')">Rest to Recover Energy (+10 Energy)</button>
+        </div>
+        <div class="log">
+            <h2>Event Log</h2>
+            <details>
+                <summary>Click to View Log</summary>
+                <ul id="log-list"></ul>
+            </details>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
